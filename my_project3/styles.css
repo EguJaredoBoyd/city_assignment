@@ -1,0 +1,133 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 217, 243);
+    color: rgb(51, 51, 51);
+  }
+  
+  h1, h2, h4, h5, h6 {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: yellowgreen;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: rgb(44, 62, 80);
+    text-transform: uppercase;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  h5, h6 {
+    text-align: center;
+    color: rgb(136, 136, 136);
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 50%;
+  }
+  
+  .destination {
+    font-size: 1.75rem;
+    color: rgb(52, 73, 94);
+    margin-top: 20px;
+  }
+  
+  .description {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 15px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .description ul {
+    list-style-type: disc;
+    font-style: italic;
+  }
+  
+  .description h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(85, 85, 85);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .description ul {
+    padding-left: 20px;
+  }
+  
+  .description li {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #lastH{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  ul li h4 {
+    font-size: small;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  
+  ul li h4:hover {
+    color: rgb(0, 123, 255);
+    cursor: pointer;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    margin: 30px 0;
+  }
+  
+  @media (max-width: 768px) {
+    h1.title {
+      font-size: 2rem;
+    }
+  
+    .destination {
+      font-size: 1.5rem;
+    }
+  
+    .description {
+      padding: 10px;
+    }
+  }
+  
